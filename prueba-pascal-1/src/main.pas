@@ -1,4 +1,4 @@
-program seguimientodeaprendizaje;
+program prueba;
 {$codepage utf8}
 
 uses uMenu;
