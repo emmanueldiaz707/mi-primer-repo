@@ -6,7 +6,23 @@ procedure menuPrincipal;
 
 implementation
 uses
-    crt;
+    uCalculo, crt;
+
+procedure menuEdad;
+var
+    anioNac, anioAct: integer;
+begin
+    clrscr;
+    write('Ingrese su año de nacimiento: ');
+    cursorOn;
+    readLn(anioNac);
+    write('Ingrese el año actual: ');
+    readLn(anioAct);
+    cursorOff;
+    writeLn('Usted tiene ',calcularEdad(anioNac,anioAct),' años.');
+    writeLn('Presione una tecla...');
+    readkey;
+end;
 
 procedure menuPrincipal;
 var
