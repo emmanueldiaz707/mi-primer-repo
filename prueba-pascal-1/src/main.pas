@@ -1,4 +1,4 @@
-Program prueba;
+Program main;
 {$codepage utf8}
 
 Uses uMenu;
