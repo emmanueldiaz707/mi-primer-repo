@@ -1,10 +1,10 @@
-unit uMenu;
+Unit uMenu;
 {$codepage utf8}
 
-interface
-procedure menuPrincipal;
+Interface
+Procedure menuPrincipal;
 
-implementation
+Implementation
 uses
     uCalculo, crt;
 
@@ -24,13 +24,17 @@ begin
     readkey;
 end;
 
-procedure menuPrincipal;
-var
-    op: char;
-begin
+Uses 
+crt;
+
+Procedure menuPrincipal;
+
+Var 
+    op:   char;
+Begin
     clrscr;
     cursorOff;
-    repeat
+    Repeat
         op := ' ';
         writeLn('Menú principal');
         writeLn('1 - Calcular edad según año de nacimiento');
@@ -39,13 +43,13 @@ begin
         writeLn('0 - Salir');
         op := readkey;
 
-        case op of
-            '1': menuEdad;
-            '2': writeLn('Opción 2');
-            '3': writeLn('Opción 3');
-        end;
-    until (op='0');
+        Case op Of 
+            '1':   menuEdad;
+            '2':   writeLn('Opción 2');
+            '3':   writeLn('Opción 3');
+        End;
+    Until (op='0');
     writeLn('Saliendo...')
-end;
+End;
 
-end.
+End.
