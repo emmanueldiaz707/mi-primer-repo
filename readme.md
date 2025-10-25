@@ -1,5 +1,5 @@
 # Mi Primer Repositorio
-Este es mi primer repositorio. Lo usaré para aprender git. 
+Este es mi primer repositorio. Lo uso para aprender git. 
 
 
 ###### git gud
