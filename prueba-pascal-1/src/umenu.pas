@@ -1,3 +1,4 @@
+
 Unit uMenu;
 {$codepage utf8}
 
@@ -5,13 +6,15 @@ Interface
 Procedure menuPrincipal;
 
 Implementation
-uses
-    uCalculo, crt;
 
-procedure menuEdad;
-var
-    anioNac, anioAct: integer;
-begin
+Uses 
+uCalculo, crt;
+
+Procedure menuEdad;
+
+Var 
+    anioNac, anioAct:   integer;
+Begin
     clrscr;
     write('Ingrese su año de nacimiento: ');
     cursorOn;
@@ -22,10 +25,7 @@ begin
     writeLn('Usted tiene ',calcularEdad(anioNac,anioAct),' años.');
     writeLn('Presione una tecla...');
     readkey;
-end;
-
-Uses 
-crt;
+End;
 
 Procedure menuPrincipal;
 
