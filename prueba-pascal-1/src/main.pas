@@ -1,8 +1,8 @@
-program prueba;
+Program prueba;
 {$codepage utf8}
 
-uses uMenu;
+Uses uMenu;
 
-begin
-  menuPrincipal;
-end.
+Begin
+    menuPrincipal;
+End.
