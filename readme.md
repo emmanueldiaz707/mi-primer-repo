@@ -3,4 +3,4 @@ Este es mi primer repositorio. Lo uso para aprender git.
 
 
 ###### git gud
-<img src="https://static.wikia.nocookie.net/hollowknight/images/1/16/Hornet_Idle.png" alt="shaw" height="50">
+<img src="https://i.imgur.com/JnBkG9L.png" alt="shaw" height="50">
